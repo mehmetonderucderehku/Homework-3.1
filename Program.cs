@@ -10,7 +10,7 @@ Console.WriteLine("Enter grades (Enter -1 to finish):");
 
 while (true)
 {
-    grade = Convert.ToInt32(Console.ReadLine());
+    grade = int.Parse(Console.ReadLine());
 
     if (grade == -1)
     {
